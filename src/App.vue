@@ -1,10 +1,9 @@
 <template>
   <div id="app">
     <router-view>
-
     </router-view>
-    <button class="btn-menu btn-menu_open">MENU</button>
-    <MyNav/>
+    <button class="btn-menu btn-menu_open" @click="menuToggle()">MENU</button>
+    <MyNav  v-if="!menuState" v-on:close-menu="menuToggle" />
   </div>
 </template>
 
@@ -14,6 +13,19 @@ import MyNav from "./components/MyNav";
 
 export default {
   name: 'App',
+  data() {
+    return {
+      menuState: true
+    }
+  },
+
+  methods: {
+    menuToggle: function (){
+      console.log('triggered')
+      this.menuState = !this.menuState
+      console.log(this.menuState)
+    }
+  },
   components: {
     MyNav
   }
@@ -23,6 +35,7 @@ export default {
 <style lang="scss">
 
 @import "./scss/main.scss";
+@import "./scss/global-class.scss";
 
 
 html{
@@ -38,19 +51,19 @@ html{
 
 }
 
-.btn-menu{
-  position: absolute;
-  right: 1rem;
-  bottom: 1rem;
-}
+.btn-menu_open{
+    color: black;
 
-// Global classes
-
-.active-link{
-    opacity: 1;
     &::before{
-        content: url("./assets/icons/menu-triangle.svg");
+        content: url("./assets/icons/menu-open.svg");
         margin-right: 1rem;
+        height: 20px;
+
     }
+
 }
+
+
+
+
 </style>

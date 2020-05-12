@@ -5,13 +5,14 @@
           <router-link class="nav-item" to="/MySkills">My skills</router-link>
           <router-link class="nav-item" to="/MyWork">My work</router-link>
       </div>
-      <button class="btn-menu btn-menu_open">Close</button>
+      <button class="btn-menu btn-menu_close" v-on:click="$emit('close-menu')">CLOSE</button>
+      <img class="nav-dots1" src="../assets/decoration/Dots1.svg" alt="dots decoration">
   </nav>
 </template>
 
 <script>
 export default {
-    name: "MyNav"
+    name: "MyNav",
 
 }
 </script>
@@ -46,6 +47,27 @@ export default {
     color: white;
     text-decoration: none;
 }
+
+.btn-menu_close{
+    color: white;
+
+    &::before{
+        content: url("../assets/icons/menu-close.svg");
+        margin-right: 1rem;
+        height: 20px;
+
+    }
+
+}
+
+// Decoration
+
+.nav-dots1{
+    position: absolute;
+    bottom: 5rem;
+    opacity: .2;
+}
+
 
 
 </style>

@@ -1,0 +1,22 @@
+// Global classes
+
+
+.btn-menu{
+
+    position: absolute;
+    right: 1rem;
+    bottom: 1rem;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    font-weight: bold;
+    font-size: 1.7rem;
+    padding: .2rem 2rem;
+  }
+
+.active-link{
+    opacity: 1;
+    &::before{
+        content: url("./assets/icons/menu-triangle.svg");
+        margin-right: 1rem;
+    }
+}
