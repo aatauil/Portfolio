@@ -21,7 +21,7 @@ export default new Router({
         {
             path: "/MySkills",
             name: "MySkills",
-            component: () => import(/* webpackChunkName: "MyWork" */ "./routes/MyWork.vue")
+            component: () => import(/* webpackChunkName: "MyWork" */ "./routes/MySkills.vue")
         },
         {
         path: "/*",
