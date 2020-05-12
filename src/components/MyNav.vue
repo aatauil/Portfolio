@@ -1,5 +1,5 @@
 <template>
-  <nav class="nav nav-container">
+  <nav class="nav nav_container">
       <div class="nav_list">
           <router-link class="nav_item" to="/">Home</router-link>
           <router-link class="nav_item" to="/MySkills">My skills</router-link>
@@ -21,7 +21,7 @@ export default {
 
 @import "../scss/main.scss";
 
-.nav-container{
+.nav_container{
     position: fixed;
     display: flex;
     justify-content: center;

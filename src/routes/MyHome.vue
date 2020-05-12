@@ -51,7 +51,7 @@ export default {
 
 .home_text{
   opacity: .2;
-  font-size: $size-h1;
+  font-size: $size-h2;
 }
 
 .home_text--active{

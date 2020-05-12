@@ -47,6 +47,7 @@ html{
 
 *{
   box-sizing: border-box;
+  line-height: normal;
 }
 
 #app {
