@@ -40,14 +40,22 @@ export default {
 
 html{
   font-size: 62.5%;
+  height: 100%;
+
+
+}
+
+*{
+  box-sizing: border-box;
 }
 
 #app {
   font-family: $poppins;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #2c3e50;
-  margin-top: 60px;
+  min-height: 100vh;
+  overflow-x: hidden;
+  width: 100vw;
 
 }
 

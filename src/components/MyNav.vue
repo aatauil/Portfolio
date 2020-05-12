@@ -1,12 +1,12 @@
 <template>
-  <nav class="nav-container">
-      <div class="nav-list">
-          <router-link class="nav-item" to="/">Home</router-link>
-          <router-link class="nav-item" to="/MySkills">My skills</router-link>
-          <router-link class="nav-item" to="/MyWork">My work</router-link>
+  <nav class="nav nav-container">
+      <div class="nav_list">
+          <router-link class="nav_item" to="/">Home</router-link>
+          <router-link class="nav_item" to="/MySkills">My skills</router-link>
+          <router-link class="nav_item" to="/MyWork">My work</router-link>
       </div>
       <button class="btn-menu btn-menu_close" v-on:click="$emit('close-menu')">CLOSE</button>
-      <img class="nav-dots1" src="../assets/decoration/Dots1.svg" alt="dots decoration">
+      <img class="nav_dots1" src="../assets/decoration/Dots1.svg" alt="dots decoration">
   </nav>
 </template>
 
@@ -34,15 +34,15 @@ export default {
     font-weight: bold;
 }
 
-.nav-list{
+.nav_list{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     height: 50%;
-    padding: 0 3rem;
+    padding-left: 2rem;
 }
 
-.nav-item{
+.nav_item{
     font-size: $size-menu;
     color: white;
     text-decoration: none;
@@ -62,7 +62,7 @@ export default {
 
 // Decoration
 
-.nav-dots1{
+.nav_dots1{
     position: absolute;
     bottom: 5rem;
     opacity: .2;
