@@ -8,12 +8,33 @@ $color-black: #111;
 $poppins: 'Poppins', sans-serif;
 
 // font sizes
-$size-h1: 4rem;
-$size-h2: 2.2rem;
-$size-h3: 2.4rem;
-$size-p: 1.4rem;
-$size-menu: 3rem;
-$size-btn: 1.7rem;
+
+:root{
+    --size-h1: 4rem;
+    --size-home: 2.2rem;
+    --size-h2: 2.4rem;
+    --size-p: 1.4rem;
+    --size-menu: 3rem;
+    --size-btn: 1.7rem;
+
+    @include breakpoint(tablet-sm){
+        --size-home: 3rem;
+    }
+
+
+    @include breakpoint(tablet-md){
+    --size-h1: 4.5rem;
+    --size-home: 3.5rem;
+    --size-h2: 2.7rem;
+    --size-p: 1.5rem;
+    --size-btn: 2.2rem;
+    }
+
+
+}
+
+
+
 
 //classes
 
