@@ -33,6 +33,8 @@ export default {
 .skill-item{
     width: 90%;
     margin: auto;
+    margin-bottom: 3rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.055);
 }
 
 
@@ -47,7 +49,7 @@ export default {
     font-size: $size-p;
     background-color: white;
     box-shadow: 0px 0px 30px rgb(202, 202, 202);
-    padding: 1.5rem;
+    padding: 2rem 1.5rem;
     box-sizing: border-box;
     border-radius: 10px;
 }
