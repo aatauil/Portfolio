@@ -54,9 +54,22 @@ export default {
 .focused-skill_container{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    @include breakpoint(tablet-md){
+       flex-direction: row;
+       flex-wrap: wrap;
+       padding: 1rem;
+    }
+
+    
 }
 
 // ==================================
+
+.skills_container{
+  max-width: 1280px;
+  margin: auto;
+}
 
 li {
     list-style-type: none;
@@ -69,6 +82,11 @@ li {
   width: 80%;
   margin: auto;
   margin-bottom: 2rem;
+   @include breakpoint(tablet-md){
+     margin-top: 6rem;
+     margin-bottom: 5rem;
+   }
+
 }
 
 .drop_selected{

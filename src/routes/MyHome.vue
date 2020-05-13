@@ -69,6 +69,14 @@ export default {
   padding: 5px;
   padding-left: 0;
 
+    @include breakpoint(tablet-sm){
+      flex-direction: row;
+      height: 5%;
+      margin-bottom: 3rem;
+      width: 35%;
+      justify-content: space-between;
+  }
+
 }
 
 .home_link{
@@ -81,6 +89,8 @@ export default {
   width: min-content;
   padding: 2px;
   padding-left: 0;
+
+
 
   &::before{
     position: absolute;

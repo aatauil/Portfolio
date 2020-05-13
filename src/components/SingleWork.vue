@@ -1,6 +1,6 @@
 <template>
   <article class="work-item">
-      <h3 class="work-item_title">{{title}}</h3>
+      <h2 class="work-item_title">{{title}}</h2>
       <p class="work-item_text" v-html="text"></p>
       <a class="work-item_link" v-bind:href="siteLink"><span class="pink">Visit</span> {{title}}</a>
       <img class="work-item_image" v-bind:src="require('../assets/images/' + imageName + '')" v-bind:alt="imageName">
@@ -37,7 +37,7 @@ export default {
 }
 
 .work-item_title{
-  font-size: var(--size-h3);
+  font-size: var(--size-h2);
 }
 
 .work-item_text{

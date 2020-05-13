@@ -17,10 +17,6 @@
     @else if $class == tablet-md {
     @media  screen and (min-width: 992px) { @content; }
     }
-
-    @else if $class == tablet-md-height {
-    @media  screen and (min-height: 750px) { @content; }
-    }
     
     @else if $class == desktop {
     @media (max-width: 1200px) { @content; }
