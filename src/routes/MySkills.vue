@@ -10,6 +10,7 @@
               <router-link class="drop_item" @click.native="ChangeSelected('Front-end')" to="/MySkills/">Front-end</router-link>
               <router-link class="drop_item" @click.native="ChangeSelected('Back-end')" to="/MySkills/BackEnd">Back-end</router-link>
               <router-link class="drop_item" @click.native="ChangeSelected('Design')" to="/MySkills/Design">Design</router-link>
+              <router-link class="drop_item" @click.native="ChangeSelected('Adobe')" to="/MySkills/Adobe">Adobe</router-link>
               <router-link class="drop_item" @click.native="ChangeSelected('CMS')" to="/MySkills/Cms">CMS</router-link>
               <router-link class="drop_item" @click.native="ChangeSelected('Other')" to="/MySkills/Other">Other</router-link>
         </div>

@@ -36,6 +36,10 @@ export default new Router({
                     component: () => import(/* webpackChunkName: "Design" */ "./components/skills/Design.vue")
                 },
                 {
+                    path: '/MySkills/Adobe',
+                    component: () => import(/* webpackChunkName: "Adobe" */ "./components/skills/Adobe.vue")
+                },
+                {
                     path: '/MySkills/Cms',
                     component: () => import(/* webpackChunkName: "Cms" */ "./components/skills/Cms.vue")
                 },
