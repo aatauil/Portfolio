@@ -37,11 +37,15 @@ export default {
 
 .heading_title-decoration{
     position: absolute;
-    font-size: 5rem;
+    font-size: var(--size-h1);
     left: 0;
-    transform: translate(-10%, -10%);
+    transform: translate(-10%, -5%);
     top: 0;
     opacity: .1;
+    @include breakpoint(tablet-md){
+      font-size: calc(var(--size-h1) + 10vw );
+      transform: translate(-30%, -40%);
+    }
 }
 
 </style>

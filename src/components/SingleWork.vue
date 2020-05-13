@@ -12,7 +12,7 @@
       </div> 
     </div>
       <a class="work-item_link" v-bind:class="{ hide : hideItem }" v-bind:href="siteLink"><span class="pink">Visit</span> {{title}}</a>
-      <img lazy class="work-item_image" v-bind:src="require('../assets/images/' + imageName + imageSize + '.png')" v-bind:alt="imageName"> 
+      <img class="work-item_image" v-bind:src="require('../assets/images/' + imageName + imageSize + '.png')" v-bind:alt="imageName"> 
      
   </article>
 </template>
