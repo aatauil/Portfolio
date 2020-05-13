@@ -13,10 +13,3 @@
     font-family: $poppins;
   }
 
-.active-link{
-    opacity: 1;
-    &::before{
-        content: url("./assets/icons/menu-triangle.svg");
-        margin-right: 1rem;
-    }
-}

@@ -40,6 +40,14 @@ export default {
     justify-content: space-evenly;
     height: 50%;
     padding-left: 2rem;
+
+    .active-link{
+    opacity: 1;
+    &::before{
+        content: url("../assets/icons/menu-triangle.svg");
+        margin-right: 1rem;
+    }
+}
 }
 
 .nav_item{

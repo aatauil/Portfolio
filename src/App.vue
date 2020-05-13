@@ -21,9 +21,7 @@ export default {
 
   methods: {
     menuToggle: function (){
-      console.log('triggered')
       this.menuState = !this.menuState
-      console.log(this.menuState)
     }
   },
   components: {
@@ -41,7 +39,6 @@ export default {
 html{
   font-size: 62.5%;
   height: 100%;
-
 
 }
 

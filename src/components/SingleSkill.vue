@@ -1,0 +1,75 @@
+<template>
+    <article class="skill-item">
+       <h3 class="skill-item_header"><img class="skill-item_logo" v-bind:src="require('../assets/images/' + imageName + '')" v-bind:alt="imageName"><span>{{title}}</span></h3>
+       <p class="skill-item_text" v-html="text"></p>
+       <div class="skill-item_taglist">
+           <div class="tag_container">
+                <div class="tag_item" v-for="tag in tags" :key="tag.index">
+                    {{ tag }}
+                </div>
+           </div>
+       </div>
+    </article>
+</template>
+
+<script>
+export default {
+    name: "Javascript",
+    props: {
+        title: String,
+        text: String,
+        tags: Array,
+        imageName: String,
+
+    }
+
+}
+</script>
+
+<style lang="scss">
+
+@import "../scss/main.scss";
+
+.skill-item{
+    width: 90%;
+    margin: auto;
+}
+
+
+
+.skill-item_header{
+    display: flex;
+    align-items: center;
+    font-size: $size-h3;
+}
+
+.skill-item_text{
+    font-size: $size-p;
+    background-color: white;
+    box-shadow: 0px 0px 30px rgb(202, 202, 202);
+    padding: 1.5rem;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.skill-item_logo{
+    margin-right: 1rem;
+}
+
+.tag_container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tag_item{
+    background-color: #111;
+    color: white;
+    font-weight: 700;
+    padding: .5rem 1.5rem;
+    border-radius: .5rem;
+    margin-right: .5rem;
+    margin-bottom: .5rem;
+    font-size: $size-p;
+}
+
+</style>

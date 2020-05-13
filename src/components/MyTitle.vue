@@ -1,5 +1,5 @@
 <template>
-  <h1 class="heading_title">{{title}}</h1>
+  <h1 class="heading_title">{{title}} <span class="heading_title-decoration">{{title}}</span></h1>
 </template>
 
 <script>
@@ -33,15 +33,15 @@ export default {
     background-color: $color-pink;
   }
 
-  &::after{
+}
+
+.heading_title-decoration{
     position: absolute;
-    content: "My work";
     font-size: 5rem;
     left: 0;
     transform: translate(-10%, -10%);
     top: 0;
     opacity: .1;
-  }
 }
 
 </style>
