@@ -7,7 +7,7 @@
           <i class="gg-chevron-down" v-bind:class="{ rotate : showDrop }"></i>
         </div>
         <div v-if="showDrop == true" class="drop_menu">
-              <router-link class="drop_item" @click.native="ChangeSelected('Front-end')" to="/MySkills/FrontEnd">Front-end</router-link>
+              <router-link class="drop_item" @click.native="ChangeSelected('Front-end')" to="/MySkills/">Front-end</router-link>
               <router-link class="drop_item" @click.native="ChangeSelected('Back-end')" to="/MySkills/BackEnd">Back-end</router-link>
               <router-link class="drop_item" @click.native="ChangeSelected('Design')" to="/MySkills/Design">Design</router-link>
               <router-link class="drop_item" @click.native="ChangeSelected('CMS')" to="/MySkills/Cms">CMS</router-link>
@@ -47,6 +47,15 @@ export default {
 <style lang="scss">
 @import "../scss/main.scss";
 @import "../scss/font-icons.scss";
+
+// The current skill child container 
+
+.focused-skill_container{
+    display: flex;
+    flex-direction: column;
+}
+
+// ==================================
 
 li {
     list-style-type: none;
