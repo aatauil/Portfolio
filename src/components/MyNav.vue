@@ -4,6 +4,7 @@
           <router-link class="nav_item" to="/">Home</router-link>
           <router-link class="nav_item" to="/MySkills">My skills</router-link>
           <router-link class="nav_item" to="/MyWork">My work</router-link>
+          <router-link class="nav_item" to="/MyAbout">About</router-link>
       </div>
       <button class="btn-menu btn-menu_close" v-on:click="$emit('close-menu')">CLOSE</button>
       <img class="nav_dots1" src="../assets/decoration/Dots1.svg" alt="dots decoration">

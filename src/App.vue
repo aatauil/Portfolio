@@ -39,6 +39,7 @@ export default {
 html{
   font-size: 62.5%;
   height: 100%;
+  background-color: #F6F6F6;
 
 }
 

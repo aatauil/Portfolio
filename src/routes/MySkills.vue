@@ -84,7 +84,7 @@ li {
   width: 100%;
   padding-left: 0;
   margin-top: 1rem;
-  background-color: white;
+
   & > .active-link{
     display: none;
   }
@@ -97,6 +97,7 @@ li {
   border: 2px solid rgba(0, 0, 0, 0.048);
   text-decoration: none;
   color: black;
+  background-color: white;
 }
 
 .rotate{

@@ -54,7 +54,9 @@ export default {
   color: black;
   font-size: $size-btn;
   padding: .5rem 1rem;
-  box-shadow: 0px 0px 5px rgba(255, 11, 84, 0.219) ;
+  background-color: white;
+  border-radius: 1rem;
+
 }
 
 .work-item_image{
