@@ -6,6 +6,11 @@
           <router-link class="nav_item" to="/MyWork">My work</router-link>
           <router-link class="nav_item" to="/MyAbout">About</router-link>
       </div>
+      <div class="nav_video-container">
+         <video class="nav_video-image" src="../assets/images/menu-vid.mp4" autoplay="true" loop="true" >
+            </video>    
+          <p class="nav_hashtag">#Brussels</p>
+      </div>
       <button class="btn-menu btn-menu_close" v-on:click="$emit('close-menu')">CLOSE</button>
       <img class="nav_dots1" src="../assets/decoration/Dots1.svg" alt="dots decoration">
   </nav>
@@ -14,8 +19,8 @@
 <script>
 export default {
     name: "MyNav",
-
 }
+
 </script>
 
 <style lang="scss">
@@ -25,8 +30,8 @@ export default {
 .nav_container{
     position: fixed;
     display: flex;
-    justify-content: center;
-    flex-direction: column;
+    justify-content: space-between;
+    flex-direction: row;
     width: 100vw;
     height: 100vh;
     background-color: $color-black;
@@ -39,8 +44,10 @@ export default {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    height: 50%;
-    padding-left: 2rem;
+    height: 60%;
+    padding-left: calc(2rem + 5vw);
+    margin: auto;
+    width: 95%;
 
     .active-link{
     opacity: 1;
@@ -69,12 +76,39 @@ export default {
 
 }
 
+.nav_video-container{
+    position: relative;
+    height: 100%;
+    display: none;
+    @include breakpoint(tablet-sm){
+     display: none;
+    }
+    @include breakpoint(tablet-md){
+     display: block;
+    }
+}
+
+.nav_video-image{
+    top: 0;
+    left: 0;
+    height: 100vh;
+}
+
 // Decoration
 
 .nav_dots1{
     position: absolute;
     bottom: 5rem;
     opacity: .2;
+}
+
+.nav_hashtag{
+    position: absolute;
+    bottom: 2rem;
+    left: 2rem;
+    font-size: var(--size-home);
+    color: white;
+    margin: 0;
 }
 
 

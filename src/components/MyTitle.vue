@@ -16,6 +16,7 @@ export default {
 @import "../scss/main.scss";
 
 .heading_title{
+  margin-top: 5vw;
   position: relative;
   font-size: var(--size-h1);
   padding: 2rem 0 1rem 2rem;

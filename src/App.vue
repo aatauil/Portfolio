@@ -54,12 +54,14 @@ html{
   -moz-osx-font-smoothing: grayscale;
   min-height: 100vh;
   overflow-x: hidden;
-  width: 100vw;
 
 }
 
 .btn-menu_open{
     color: black;
+    background-color: white;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.342);
+    border-radius: 5px;
 
     &::before{
         content: url("./assets/icons/menu-open.svg");

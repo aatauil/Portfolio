@@ -9,7 +9,16 @@
     border: none;
     font-weight: 700;
     font-size: 1.7rem;
-    padding: .2rem 2rem;
     font-family: $poppins;
+    padding: 1rem 2rem;
+
+    @include breakpoint(tablet-md){
+      top: 1rem;
+      left: 1rem;
+      height: min-content;
+
+    }
+
+
   }
 
