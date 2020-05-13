@@ -33,12 +33,15 @@ export default {
 
 .home-container{
   position: relative;
-  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-left: 1rem;
 
+  height: 100vh;
+  width: 90%;
+  max-width: 1280px;
+ 
+  margin: auto;
 }
 
 .home_text-container{
@@ -51,7 +54,7 @@ export default {
 
 .home_text{
   opacity: .2;
-  font-size: $size-h2;
+  font-size: var(--size-home);
 }
 
 .home_text--active{
@@ -73,7 +76,7 @@ export default {
   text-decoration: none;
   color: black;
   font-weight: 700;
-  font-size: $size-btn;
+  font-size: var(--size-btn);
   white-space: nowrap;
   width: min-content;
   padding: 2px;

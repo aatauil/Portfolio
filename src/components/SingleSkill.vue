@@ -42,11 +42,11 @@ export default {
 .skill-item_header{
     display: flex;
     align-items: center;
-    font-size: $size-h3;
+    font-size: var(--size-h3);
 }
 
 .skill-item_text{
-    font-size: $size-p;
+    font-size: var(--size-p);
     background-color: white;
     box-shadow: 0px 0px 30px rgb(202, 202, 202);
     padding: 2rem 1.5rem;
@@ -71,7 +71,7 @@ export default {
     border-radius: .5rem;
     margin-right: .5rem;
     margin-bottom: .5rem;
-    font-size: $size-p;
+    font-size: var(--size-p);
 }
 
 </style>

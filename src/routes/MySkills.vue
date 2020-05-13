@@ -93,7 +93,7 @@ li {
 .drop_item{
   padding: .8rem .8rem .8rem 1.5rem;
   font-weight: 700;
-  font-size: $size-btn;
+  font-size: var(--size-btn);
   border: 2px solid rgba(0, 0, 0, 0.048);
   text-decoration: none;
   color: black;

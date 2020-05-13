@@ -17,7 +17,7 @@ export default {
 
 .heading_title{
   position: relative;
-  font-size: $size-h1;
+  font-size: var(--size-h1);
   padding: 2rem 0 1rem 2rem;
 
   white-space: nowrap;

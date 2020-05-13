@@ -52,7 +52,7 @@ export default {
 }
 
 .nav_item{
-    font-size: $size-menu;
+    font-size: var(--size-menu);
     color: white;
     text-decoration: none;
 }

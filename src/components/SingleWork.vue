@@ -37,11 +37,11 @@ export default {
 }
 
 .work-item_title{
-  font-size: $size-h3;
+  font-size: var(--size-h3);
 }
 
 .work-item_text{
-  font-size: $size-p;
+  font-size: var(--size-p);
   width: 80%;
   font-weight: 700;
   opacity: .7;
@@ -52,7 +52,7 @@ export default {
   font-weight: 700;
   text-decoration: none;
   color: black;
-  font-size: $size-btn;
+  font-size: var(--size-btn);
   padding: .5rem 1rem;
   background-color: white;
   border-radius: 1rem;
