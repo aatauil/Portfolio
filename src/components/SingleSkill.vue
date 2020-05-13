@@ -1,6 +1,6 @@
 <template>
     <article class="skill-item">
-       <h2 class="skill-item_header"><img class="skill-item_logo" v-bind:src="require('../assets/images/' + imageName + '')" v-bind:alt="imageName"><span>{{title}}</span></h2>
+       <h2 class="skill-item_header"><img class="skill-item_logo" v-bind:src="require('../assets/images/' + imageName + imageSize + '.png')" v-bind:alt="imageName"><span>{{title}}</span></h2>
        <p class="skill-item_text" v-html="text"></p>
        <div class="skill-item_taglist">
            <div class="tag_container">
@@ -21,7 +21,28 @@ export default {
         tags: Array,
         imageName: String,
 
-    }
+    },
+    
+    data() {
+        return {
+        imageSize: "",
+        }
+    },
+
+    methods: {
+        handleView(){
+            if((window.innerWidth >= 992)){
+            this.imageSize= "@2x"
+            } else {
+            this.imageSize= ""
+            }
+        }
+    },
+
+    created() {
+    this.handleView();
+    window.addEventListener("resize", this.handleView)
+  }
 
 }
 </script>

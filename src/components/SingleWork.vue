@@ -41,11 +41,9 @@ export default {
       if((window.innerWidth >= 992 )){
       this.imageSize= "@2x"
       this.hideButton = true
-      return true
       } else {
         this.imageSize= ""
         this.hideButton = false
-        return false
       }
     }
   },
