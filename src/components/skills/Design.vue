@@ -1,16 +1,16 @@
 <template>
    <section class="focused-skill_container">
       <SingleSkill
-          title= "UI/UX"
-          text= "My first and most prefered programming language.  I can say with confident that I have a very good understanding of Javascript. I know how the language gets compiled in the browser and therefor bugs usually get resolve very quickly.<br><br> I use ES6 syntax and am currently learning ES7 & ES8 and ofcoarse keeping on eye out for es.next. Very excited!<br><br> You never finish learning Javascript there is always more!"
-          v-bind:tags="['webpack', 'vuejs', 'Jquery', 'I18next']"
-          imageName="uiux"
+          title= "UI"
+          text= "I have a <b> very good </b> understanding of UI design. I really enjoy designing websites. I understand the Design Principles and know all about for example: <b> Color Theory </b> and  <b> Typography </b>. I regularly visit <b> Dribbble & Pinterest </b> to stay up to date with the current trends.I can adapt to many styles and tastes. <br><br> <i> On the About page you can find the link to my Dribbble account. </i>"
+          v-bind:tags="['Typography', 'Whte-space', 'Dribbble', 'Pinterest']"
+          imageName="ui"
       />
        <SingleSkill
           title= "logo"
-          text= "My first and most prefered programming language.  I can say with confident that I have a very good understanding of Javascript. I know how the language gets compiled in the browser and therefor bugs usually get resolve very quickly.<br><br> I use ES6 syntax and am currently learning ES7 & ES8 and ofcoarse keeping on eye out for es.next. Very excited!<br><br> You never finish learning Javascript there is always more!"
-          v-bind:tags="['webpack', 'vuejs', 'Jquery', 'I18next']"
-          imageName="uiux"
+          text= "I have a <b> good </b> understanding of logo Design. I know how to match the logo with the feeling of a company. I mostly do geometric design & word logo's. <br><br> This is more of a hobby but I did already create logo's professionally ."
+          v-bind:tags="['Illustrator', 'Geometric', 'Alignment', 'Golden ratio']"
+          imageName="fayli"
       />
    </section>
 </template>

@@ -6,6 +6,14 @@
             v-bind:tags="['Webpack', 'Vuejs', 'Jquery', 'I18next' , 'TypeScript', 'ES6']"
             imageName="javascript"
         />
+
+         <SingleSkill
+            title= "VueJS"
+            text= "I have a <b> good </b> understanding of VueJS. I know how use components, routes, props, methods, bindings etc.. . I am in the process of learning Veux and Nuxtjs. <br><br> Otherwise I know how to manage a small to medium projects using VueJS.<br><br> <i> note: This website has been made using VueJS </i>   "
+            v-bind:tags="['Framework', 'Router', 'Components']"
+            imageName="vuejs"
+        />
+
          <SingleSkill
             title= "HTML"
             text= "My HTML knowledge is <b> very good </b>. I know when and where to use the correct tags.<b> Meta tags </b> have no secrets for me either. <br><br> I know the importance of correct HTML tags for screen readers and SEO. So I try to use div tags only for styling purposes like described by <b> the World Wide Web Consortium. </b> "

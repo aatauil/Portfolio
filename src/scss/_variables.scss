@@ -3,8 +3,6 @@
 :root{
     --color-pink: #FF0B53;
 }
-
-
 $color-black: #111;
 
 //fonts
@@ -14,7 +12,6 @@ $poppins: 'Poppins', sans-serif;
 // font sizes
 
 :root{
-    
     --size-h1: 4rem;
     --size-home: 2.2rem;
     --size-h2: 2.4rem;
@@ -45,3 +42,9 @@ $poppins: 'Poppins', sans-serif;
 
 
 
+
+//classes
+
+.pink{
+    color: var(--color-pink)
+}

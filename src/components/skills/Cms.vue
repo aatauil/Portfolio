@@ -2,14 +2,14 @@
    <section class="focused-skill_container">
      <SingleSkill
             title= "Wordpress"
-            text= "My first and most prefered programming language.  I can say with confident that I have a very good understanding of Javascript. I know how the language gets compiled in the browser and therefor bugs usually get resolve very quickly.<br><br> I use ES6 syntax and am currently learning ES7 & ES8 and ofcoarse keeping on eye out for es.next. Very excited!<br><br> You never finish learning Javascript there is always more!"
-            v-bind:tags="['webpack', 'vuejs', 'Jquery', 'I18next']"
+            text= "I have a very good <b> non coding </b> understanding of Wordpress. I have used wordpress for a couple of projects and seen in <b> My Work </b> page. I know how to install themes, plugins & use them builders like Elementor. I know how to migrate from local to live. I have used <b> Local By Flywheel </b>. <br><br> I now use wordpress less since I started using <b> Headless CMS's </b> like Strapi."
+            v-bind:tags="['Themeforest', 'Plugins', 'Config.php', 'Elementor']"
             imageName="wordpress"
         />
        <SingleSkill
             title= "Strapi"
-            text= "My first and most prefered programming language.  I can say with confident that I have a very good understanding of Javascript. I know how the language gets compiled in the browser and therefor bugs usually get resolve very quickly.<br><br> I use ES6 syntax and am currently learning ES7 & ES8 and ofcoarse keeping on eye out for es.next. Very excited!<br><br> You never finish learning Javascript there is always more!"
-            v-bind:tags="['webpack', 'vuejs', 'Jquery', 'I18next']"
+            text= "I have a <b> basic to good </b> understanding of Strapi. I believe headless CMS's are the future. I started using Strapi since it is Open-source and their upcoming features look very promising. <br><br> I decided to use Headless CMS's since I will have much more control of the Front-end. Also because they are much more Scalable. I intend to also learn Contentfull, Butter & Craft in teh future"
+            v-bind:tags="['Headless CMS', 'Open-source', 'API', 'The future']"
             imageName="strapi"
         />
     </section>
