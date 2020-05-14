@@ -13,14 +13,13 @@
     </article>
 
 
-<!-- 
-    <img class="home_x-mark home_decoration" src="../assets/decoration/x-mark.svg" alt="x-mark decoration">
-    <img class="home_pink-circle home_decoration" src="../assets/decoration//pink-circle.svg" alt="pink-circle decoration"> -->
-      
+
   </section>
 </template>
 
 <script>
+
+
 export default {
     name: 'MyHome',
 
@@ -88,24 +87,30 @@ export default {
   font-size: var(--size-btn);
   white-space: nowrap;
   width: min-content;
+  min-height: 30px;
   padding: 2px;
   padding-left: 0;
+  z-index: 10;
+  line-height: auto;
 
   &:nth-child(1){
     margin-right: 2rem;
   }
 
-
-
   &::before{
+    transition: width .3s ease;
     position: absolute;
     content: "";
     width: 25%;
     height: 5px;
-    bottom: -5px;
+    bottom: -1vh;
     border: 1px;
     border-radius: 50px;
     background-color: $color-pink;
+  }
+
+  &:hover::before{
+    width: 50%;
   }
 }
 
@@ -174,26 +179,5 @@ export default {
 
 }
 
-
-
-
-//Decoration
-
-.home_decoration{
-  position: absolute;
-}
-
-.home_x-mark{
-  top: 60%;
-  left: 0;
-  transform: translateX(-50%);
-}
-
-
-.home_pink-circle{
-  top: 0;
-  right: 0;
-  transform: translate(50%, -50%)
-}
 
 </style>

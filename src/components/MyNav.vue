@@ -38,6 +38,7 @@ export default {
     top: 0;
     left: 0;
     font-weight: bold;
+    z-index: 100;
 }
 
 .nav_list{
@@ -106,7 +107,7 @@ export default {
     position: absolute;
     bottom: 2rem;
     left: 2rem;
-    font-size: var(--size-home);
+    font-size: var(--size-h2);
     color: white;
     margin: 0;
 }

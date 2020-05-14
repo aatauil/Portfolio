@@ -82,6 +82,7 @@ li {
   width: 80%;
   margin: auto;
   margin-bottom: 2rem;
+  z-index: 11;
    @include breakpoint(tablet-md){
      margin-top: 6rem;
      margin-bottom: 5rem;
