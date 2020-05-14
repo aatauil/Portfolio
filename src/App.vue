@@ -79,12 +79,17 @@ html{
 }
 
 .btn-menu_open{
+  transition: box-shadow .3s ease;
     color: black;
     background-color: white;
-    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.342);
+    box-shadow: 0px 0px 30px rgba(56, 56, 56, 0.274);
     border-radius: 5px;
     z-index: 10;
     cursor: pointer;
+
+    &:hover{
+      box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.466);
+    }
 
     &::before{
         content: url("./assets/icons/menu-open.svg");

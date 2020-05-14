@@ -32,7 +32,7 @@ export default {
     height: 1rem;
     bottom: -5px;
     border-radius: 50px;
-    background-color: $color-pink;
+    background-color: var(--color-pink);
   }
 
 }

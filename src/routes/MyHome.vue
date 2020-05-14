@@ -106,7 +106,7 @@ export default {
     bottom: -1vh;
     border: 1px;
     border-radius: 50px;
-    background-color: $color-pink;
+    background-color: var(--color-pink);
   }
 
   &:hover::before{
