@@ -17,7 +17,7 @@
         
          <SingleSkill
             title= "Digital Ocean"
-            text= "I have a <b> basic </b> knowledge of Digital Ocean. I know how to set up a droplet and SSH into it. <br><br> I only recently decides to use this. I expect to use this VPS as my default in the near future. I use Ubuntu as my default system. Other goals are to set up <b> CI/CD </b> together with  <b> Github actions </b> to ensure worriless hosting. "
+            text= "I have a <b> basic </b> knowledge of Digital Ocean. I know how to set up a droplet and SSH into it and start working. <br><br> I only recently decides to use this. I expect to use this VPS as my default in the near future. I use Ubuntu as my default system. Other goals are to set up <b> CI/CD </b> together with  <b> Github actions </b> to ensure worriless hosting. "
             v-bind:tags="['VPS', 'SSH', 'Cmder', 'CI/CD' , 'Github Actions']"
             imageName="digitalocean"
         />
