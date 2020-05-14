@@ -2,22 +2,20 @@
     <section class="focused-skill_container"> 
         <SingleSkill
             title= "Javascript"
-            text= "My first and most prefered programming language.  I can say with confident that I have a very good understanding of Javascript. I know how the language gets compiled in the browser and therefor bugs usually get resolve very quickly.<br><br> I use ES6 syntax and am currently learning ES7 & ES8 and ofcoarse keeping on eye out for es.next. Very excited!<br><br> You never finish learning Javascript there is always more!"
-            v-bind:tags="['webpack', 'vuejs', 'Jquery', 'I18next']"
+            text= "My first and most prefered programming language. I can say with confidence that I have a <b> very good </b> understanding of Javascript. I enjoy the language a lot. I use <b> ES6 syntax </b>. I can handle a lot of data in an arranged and tidy way. <br><br> I try to make my code as efficient as possible, no repeating or unnescessary long code. I also know and use a lot of libraries, but always try to write them myself. I am currently learning <b> Typescript <b>  "
+            v-bind:tags="['Webpack', 'Vuejs', 'Jquery', 'I18next' , 'TypeScript', 'ES6']"
             imageName="javascript"
         />
          <SingleSkill
             title= "HTML"
-            text= "My HTML knowledge is very good. I know when and where to use the correct tags. Meta tags have no secrets for me either. I know the importance of correct HTML tags for screen readers and SEO. So I try to use div tags only for styling purposes like described by the World Wide Web Consortium. "
-            v-bind:tags="['semantic', 'meta', 'SEO Friendly']"
+            text= "My HTML knowledge is <b> very good </b>. I know when and where to use the correct tags.<b> Meta tags </b> have no secrets for me either. <br><br> I know the importance of correct HTML tags for screen readers and SEO. So I try to use div tags only for styling purposes like described by <b> the World Wide Web Consortium. </b> "
+            v-bind:tags="['Semantic', 'Meta', 'SEO Friendly']"
             imageName="html"
         />
          <SingleSkill
             title= "CSS"
-            text= "Very under-estimated but luckily mastered! I can write clean, non repeating and responsive css. Mobile first or desktop first. No need to constantly look up attributes as I know most of them. I use css units and variables appropriotly. I make sure that every browser displays the website the same way. 
-
-I evolved and use Sass/scss now as standard. Creating a structured filetree and using variables and mixins where possible.  "
-            v-bind:tags="['Scss/Sass', 'Flex', 'Grid', 'Responsive']"
+            text= "I have a <b> very good </b> understanding of CSS, I mostly use Sass now. I try to avoid repeating code as much as possible. I use <b> variables </b> where possible. <br><br> I keep my code clean and formatted. 9/10 times I do not need to look up a specific attribute since I <b> memorized </b> the common and partially uncommon ones. I can write <b> mobile first </b> as wel as <b> desktop first </b>. I know how to write <b> custom animations </b>."
+            v-bind:tags="['Scss/Sass', 'Flex', 'Grid', 'Responsive', 'Variables' , 'Mixins' ,'Structure']"
             imageName="css"
         />
     </section>
