@@ -19,7 +19,7 @@
     }
     
     @else if $class == desktop {
-    @media (max-width: 1200px) { @content; }
+    @media (min-width: 1200px) { @content; }
     }
 
 
