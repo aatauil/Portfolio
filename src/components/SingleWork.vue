@@ -68,6 +68,7 @@ export default {
   padding: 1rem;
   margin-bottom: 3rem;
   border-top: 1px solid rgba(0, 0, 0, 0.055);
+  z-index: 10;
   @include breakpoint(tablet-md){
     margin: auto;
     border-top: none;

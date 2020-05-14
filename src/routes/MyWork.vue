@@ -6,19 +6,26 @@
           text="Alphabitat is a Real Estate Agency located in Woluwe-Sint-Pierre.
           My first big project. <br><br> I build this while I was studying at BeCode.  
           I went through all stages of Web development from Design to deployment."
-          siteLink="https://www.google.com"
+          siteLink="https://alphabitat.be"
           imageName="alphabitat"
-          v-bind:tags="['webpack', 'vuejs', 'Jquery', 'I18next']"
+          v-bind:tags="['webpack', 'Jquery', 'localization' , 'API' ]"
           />
 
           <SingleWork
           title="Coach Gab"
-          text="Alphabitat is a Real Estate Agency located in Woluwe-Sint-Pierre.
-          My first big project. <br><br> I build this while I was studying at BeCode.  
-          I went through all stages of Web development from Design to deployment."
+          text="Coach Gab is a personal fitness coach here in Brussels. <br><br> In combination with SimplyBook.me coach Gab's web presence, booking & management has completely transformed to become future proof. <i> Not finished yet!</i>  "
           siteLink="https://www.google.com"
-          imageName="alphabitat"
-          v-bind:tags="['webpack', 'vuejs', 'Jquery', 'I18next']"
+          imageName="gab"
+          v-bind:tags="['vuejs', 'Jquery', 'SwiperJS' , 'SimplyBook']"
+          />
+
+          
+          <SingleWork
+          title="Le jardin de Nicolas"
+          text="Le jardin de Nicolas is a high class restaurant situated in Montgomery. My colleague and I used a theme to create this website and personalized it to the owners liking. <br> <br> We mainly used high quality images to attract new customers.</i>  "
+          siteLink="https://www.google.com"
+          imageName="jardin"
+          v-bind:tags="['Wordpress', 'SEO', 'Migration' , 'Theme']"
           />
  
 
@@ -44,6 +51,7 @@ export default {
 .work_container{
   max-width: 1280px;
   margin: auto;
+
 }
 
 .work-item:nth-child(even){
