@@ -6,16 +6,16 @@
     <MyNav  v-if="!menuState" v-on:close-menu="menuToggle" />
     <KinesisContainer class="kinesis_container">
       <Kinesis-element class=" kinesis_element home_x-mark " :strength="20" type="depth">
-        <img  src="./assets/decoration/x-mark.svg" alt="x-mark decoration">
+        <img class="decor_element" src="./assets/decoration/x-mark.svg" alt="x-mark decoration">
       </Kinesis-element>
       <Kinesis-element class=" kinesis_element home_pink-circle" :strength="10" type="depth">
-        <img  src="./assets/decoration/pink-circle.svg" alt="pink-circle decoration">
+        <img class="decor_element"  src="./assets/decoration/pink-circle.svg" alt="pink-circle decoration">
       </Kinesis-element>
       <Kinesis-element class=" kinesis_element home_x-outline" :strength="30" type="depth" axis="y" transformOrigin="-150% 100%">
-        <img  src="./assets/decoration/x-outline.png" alt="x-outline decoration">
+        <img class="decor_element" src="./assets/decoration/x-outline.png" alt="x-outline decoration">
       </Kinesis-element>
       <Kinesis-element class=" kinesis_element home_dots2" :strength="5">
-        <img  src="./assets/decoration/dots2-big.svg" alt="dots decoration">
+        <img class="decor_element" src="./assets/decoration/dots2-big.svg" alt="dots decoration">
       </Kinesis-element>
     </KinesisContainer>
   </div>
@@ -51,13 +51,13 @@ export default {
 
 @import "./scss/main.scss";
 @import "./scss/global-class.scss";
+@import "./scss/scrollbar.scss";
 
 
 html{
   font-size: 62.5%;
   height: 100%;
   background-color: #F6F6F6;
-
 
 }
 
@@ -107,9 +107,16 @@ html{
 
 .kinesis_element{
   position: absolute;
+
 }
 
-//Decoration
+.decor_element{
+  width: calc(50% + 10vw);
+  opacity: .2;
+  @include breakpoint(tablet-sm){
+    opacity: 1;
+  }
+}
 
 .home_x-mark{
   top: 60%;
