@@ -39,7 +39,7 @@ Final<b>*</b> commit: **May 14, 2020**
 ## WakaTime Time logging
 
 <p align="center">
-  <img width="100" src="./readme-assets/wakatime.png">
+  <img src="./readme-assets/wakatime.png">
 </p>
 
 
