@@ -35,7 +35,6 @@ export default {
 
     methods: {
       ChangeSelected: function(name) {
-         console.log(this.selected)
         this.selected = name;
         this.showDrop = false;
        
