@@ -39,6 +39,13 @@ export default {
       this.menuState = !this.menuState
     }
   },
+   watch:{
+    $route (){
+        this.menuState = true;
+    }
+  },
+
+
   components: {
     MyNav,
     KinesisContainer,
