@@ -16,15 +16,16 @@
       </article>
       <article class="about_form-container">
         <h3 class="about_form-title">Request resume</h3>
-      <form action="" netlify>
+      <form name="resume-request" action="POST" netlify>
         <div class="form_section">
-          <label class="form_label" for="name">Name</label>
-          <input class="form_input" type="text" name="name" id="name" required placeholder="">
+          <label class="form_label" for="name">E-mail</label>
+          <input class="form_input" type="email" name="name" id="name" required placeholder="">
         </div>
          <div class="form_section">
           <label class="form_label" for="message">Message</label>
           <textarea class="form_input" name="message" id="message" placeholder="(optional but highly recommended)"></textarea>
         </div>
+        <p class="form_email-privacy">I take your privacy seriously. Your E-mail will not be shared or sold to third parties.</p>
         <input type="submit" class="form_submit-btn" value="Request">
       </form>
 
@@ -119,10 +120,19 @@ export default {
 
 .form_input{
   border-radius: 5px;
-  border: 1px solid rgba(0, 0, 0, 0.438);
+  border: 1px solid rgba(0, 0, 0, 0.158);
   padding: 1rem;
   resize: none;
   font-size: var(--size-p);
+}
+
+.form_email-privacy{
+  font-size: var(--size-p);
+  font-weight: 700;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.199);
+  border-radius: 5px;
+  opacity: .4;
 }
 
 .form_submit-btn{
