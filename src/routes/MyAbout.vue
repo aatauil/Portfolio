@@ -16,7 +16,7 @@
       </article>
       <article class="about_form-container">
         <h3 class="about_form-title">Request resume</h3>
-      <form name="resume-request"  action="" method="POST" netlify >
+      <form name="resume-request" method="POST" data-netlify="true" >
         <div class="form_section">
           <label class="form_label" for="name">E-mail</label>
           <input class="form_input" type="email" name="name" id="name" required placeholder="">
