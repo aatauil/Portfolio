@@ -8,11 +8,9 @@
       <h1 class="home_text a-4">Enjoy<span class="pink"> exploring </span> my site.</h1>
     </article>
     <article class="home_link-container">
-      <a class="home_link" href="https://atauil.me/MySkills">Discover skills</a>
-      <a class="home_link" href="https://atauil.me/MyWork">Visit my work</a>
+      <router-link class="home_link" to="/MySkills">Discover skills</router-link>
+      <router-link class="home_link" to="/MyWork">Visit my work</router-link>
     </article>
-
-
 
   </section>
 </template>
