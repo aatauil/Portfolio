@@ -67,8 +67,8 @@ export default {
 
 .btn-menu_close{
     color: white;
+    bottom: 1rem;
     right: 1rem;
-    top: 1rem;
 
     &::before{
         content: url("../assets/icons/menu-close.svg");

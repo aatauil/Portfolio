@@ -93,6 +93,8 @@ html{
     border-radius: 5px;
     z-index: 10;
     cursor: pointer;
+    bottom: 1rem;
+    right: 1rem;
 
     &:hover{
       box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.466);
