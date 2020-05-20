@@ -14,7 +14,7 @@
         />
          <SingleSkill
             title= "PHP & MySQL"
-            text= "I know more then the basics in how to use PHP & MySQL. I did not feel comfortable using these towards the future so I made the switch to NodeJS and MongoDB. <br><br> I can use these technologies if I have to but I prefere the alternatives.  "
+            text= "I know more then the basics in how to use PHP & MySQL. I did not feel comfortable using these towards the future so I made the switch to NodeJS and MongoDB. <br><br> I am able to use these technologies.  "
             v-bind:tags="['phpMyAdmin', 'Wordpress', 'Jquery', 'Tables', 'Relational']"
             imageName="server"
         />            

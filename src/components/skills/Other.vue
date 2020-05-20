@@ -2,14 +2,14 @@
   <section class="focused-skill_container">
      <SingleSkill
             title= "GraphQL"
-            text= "I have a <b> basic </b> understanding of GraphQL. I am in the process of learning. This in combination of <b> Apollo & Hasura </b>. I very much like how GraphQL query's its data. I know how to <b> mutate </b> data too. Like MongoDB I feel very postive in learning this technologies towards the future"
+            text= "I have a <b> basic to good </b> understanding of GraphQL. I am in the process of further learning it in depth. This in combination of <b> Apollo & Hasura </b>. I very much like how GraphQL query's its data. Like MongoDB I feel very postive in learning this technologies towards the future"
             v-bind:tags="['Apollo', 'Hasura', 'Query', 'Mutations']"
             imageName="graphql"
         />
 
          <SingleSkill
             title= "Ubuntu"
-            text= "I use Ubuntu as my prefered <b> Linux distribution </b>. I have a <b> sufficiant </b> knowledge on ubuntu for a web developer. This includes knowing how to use the CLI. Understanding file permissions. Setting up a server. Update & Upgrade packages."
+            text= "I use Ubuntu as my prefered <b> Linux distribution </b>. I have a <b> sufficiant </b> knowledge on ubuntu for a web developer. This includes knowing how to use the CLI. Understanding file permissions. Setting up a server. Update & Upgrade packages and more."
             v-bind:tags="['Linux', 'Sudo', 'Server', 'SSH']"
             imageName="ubuntu"
         />

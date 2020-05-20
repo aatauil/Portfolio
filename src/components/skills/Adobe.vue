@@ -27,7 +27,7 @@
         />
          <SingleSkill
                 title= "Photoshop"
-                text= "I have a basic understading of Photoshop. If I need to edit images I mostly use Pixlr since it has every tool I need for it. I mostly use Photoshop if I want to remove backgrounds with a mask."
+                text= "I have a basic understading of Photoshop. If I need to edit images I mostly use Pixlr since it has every tool I need to do the job. I mostly use Photoshop if need to do more complicated stuff like remove backgrounds with a mask."
                 v-bind:tags="['Image mask', 'Pixlr']"
                 imageName="photoshop"
         />

@@ -2,15 +2,15 @@
     <section class="focused-skill_container"> 
         <SingleSkill
             title= "Javascript"
-            text= "My first and most prefered programming language. I can say with confidence that I have a <b> very good </b> understanding of Javascript. I enjoy the language a lot. I use <b> ES6 syntax </b>. I can handle a lot of data in an arranged and tidy way. <br><br> I try to make my code as efficient as possible, no repeating or unnescessary long code. I also know and use a lot of libraries, but always try to write them myself. I am currently learning <b> Typescript <b>  "
-            v-bind:tags="['Webpack', 'Vuejs', 'Jquery', 'I18next' , 'TypeScript', 'ES6']"
+            text= "My first and most prefered programming language. I can say with confidence that I have a <b> very good </b> understanding of Javascript. I enjoy the language a lot. I use <b> ES6 syntax </b>. I can handle a lot of data in an arranged and tidy way. <br><br> I try to make my code as efficient as possible, no repeating or unnescessary long code. I have also used a lot of different libraries. "
+            v-bind:tags="['Webpack', 'Vuejs', 'Jquery', 'I18next' , 'ES6']"
             imageName="javascript"
         />
 
          <SingleSkill
             title= "VueJS"
-            text= "I have a <b> good </b> understanding of VueJS. I know how use components, routes, props, methods, bindings etc.. . I am in the process of learning Veux and Nuxtjs. <br><br> Otherwise I know how to manage a small to medium projects using VueJS.<br><br> <i> note: This website has been made using VueJS </i>   "
-            v-bind:tags="['Framework', 'Router', 'Components']"
+            text= "I have a <b> good </b> understanding of VueJS. I know how use components, routes, props, methods, bindings etc.. . I am in the process of learning Veux and Nuxtjs. <br><br> Otherwise I know how to manage a small to medium projects using VueJS. I am currently learning <b> NuxtJS </b><br><br> <i> note: This website has been made using VueJS </i>   "
+            v-bind:tags="['Framework', 'Router', 'Components', 'NuxtJS']"
             imageName="vuejs"
         />
 

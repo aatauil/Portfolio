@@ -13,7 +13,7 @@
 
           <SingleWork
           title="Coach Gab"
-          text="Coach Gab is a personal fitness coach here in Brussels. <br><br> In combination with SimplyBook.me coach Gab's web presence, booking & management has completely transformed to become future proof. <i> Not finished yet!</i>  "
+          text="Coach Gab is a personal fitness coach here in Brussels. <br><br> In combination with SimplyBook.me coach Gab's web presence, booking & management has completely transformed to become future proof. <i> Still in the development stage</i>  "
           siteLink="https://www.google.com"
           imageName="gab"
           v-bind:tags="['vuejs', 'Jquery', 'SwiperJS' , 'SimplyBook']"
@@ -22,7 +22,7 @@
           
           <SingleWork
           title="Le jardin de Nicolas"
-          text="Le jardin de Nicolas is a high class restaurant situated in Montgomery. My colleague and I used a theme to create this website and personalized it to the owners liking. <br> <br> We mainly used high quality images to attract new customers.</i>  "
+          text="Le jardin de Nicolas is a high class restaurant situated in Montgomery. My colleague and I used a theme to create this website and personalized it to the owners liking. <br> <br> We mainly used high quality images as a mean attract new customers.</i>  "
           siteLink="https://www.google.com"
           imageName="jardin"
           v-bind:tags="['Wordpress', 'SEO', 'Migration' , 'Theme']"
