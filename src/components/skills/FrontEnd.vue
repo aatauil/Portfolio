@@ -18,7 +18,7 @@
             title= "ReactJS"
             text= "I have a <b> good </b> understanding of React. I know how use components, routes, Hooks, Redux, Spring etc.. . <br><br> I am currently working on a project creating a store using React. This will be displayed in my work section very soon so stay tuned! </i>   "
             v-bind:tags="['Framework', 'Router', 'Components', 'NuxtJS']"
-            imageName="vuejs"
+            imageName="react"
         />
 
          <SingleSkill
