@@ -8,14 +8,14 @@
         />
         <SingleSkill
             title= "MongoDB"
-            text= "I am still in the process of learning MongoDB since I made the switch from MySQL. I have a <b> basic to good </b> understanding of MongoDB. The data is stored in <b> JSON </b> like format that I feel familiar with. I can make a local connection using <b> MongoDB Atlas </b> and a remote one using <b> MongDB Atlas and Nodejs </b>. <br><br> There is still a road ahead but I feel <b> very very positive </b> in mastering this towards the future. "
+            text= "I am still in the process of learning MongoDB. I have a <b> basic to good </b> understanding of MongoDB. The data is stored in <b> JSON </b> like format that I feel familiar with. I can make a local connection using <b> MongoDB shell as wel as Compas </b> and a remote one using <b> MongDB Atlas</b>. <br><br> There is still a road ahead but I feel <b> very very positive </b> in mastering this towards the future. "
             v-bind:tags="['BSON', 'Compass', 'Atlas', 'query']"
             imageName="mongodb"
         />
          <SingleSkill
             title= "PHP & MySQL"
-            text= "I know more then the basics in how to use PHP & MySQL. I did not feel comfortable using these towards the future so I made the switch to NodeJS and MongoDB. <br><br> I am able to use these technologies.  "
-            v-bind:tags="['phpMyAdmin', 'Wordpress', 'Jquery', 'Tables', 'Relational']"
+            text= "I have a good understanding of PHP & MySQL. I recently switched from procedural PHP to Object Oriented PHP. I also have a general understanding of the MVC model and know how to apply this model in a project. Using Mysqli & PDO is no problem for me. I am currently learning Symfony as my PHP framework."
+            v-bind:tags="['phpMyAdmin', 'PDO', 'Mysqli', 'Object oriented', 'MVC', 'Symfony', 'Queries']"
             imageName="server"
         />            
     </section>
