@@ -1,7 +1,7 @@
 <template>
   <article class="work-item">
     <div class="work-item_header">
-      <h2 class="work-item_title">{{title}}</h2>
+      <a class="work-item_title" v-bind:href="siteLink">{{title}}</a>  
       <p class="work-item_text" v-html="text"></p>
       <div class="work-item_taglist" v-bind:class="{ hide : !hideItem }">
           <div class="tag_container">
@@ -11,9 +11,7 @@
           </div>
       </div> 
     </div>
-      <a class="work-item_link" v-bind:class="{ hide : hideItem }" v-bind:href="siteLink"><span class="pink">Visit</span> {{title}}</a>
       <img class="work-item_image" v-bind:src="require('../assets/images/' + imageName + imageSize + '.png')" v-bind:alt="imageName"> 
-     
   </article>
 </template>
 
@@ -89,7 +87,11 @@ export default {
 }
 
 .work-item_title{
+  text-decoration: none;
+  font-weight: 700;
+  color: black;
   font-size: var(--size-h2);
+
 }
 
 .work-item_text{
@@ -152,5 +154,6 @@ export default {
     margin-bottom: .5rem;
     font-size: var(--size-p);
 }
+
 
 </style>
