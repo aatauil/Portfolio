@@ -8,7 +8,7 @@
         />
        <SingleSkill
             title= "Strapi"
-            text= "I have a <b> basic to good </b> understanding of Strapi. I believe headless CMS's are the future. I started using Strapi since it is open-source and their upcoming features look very promising. <br><br> I decided to use headless CMS's since it gives more control of the front-end. Also because they are much more scalable. I intend to also learn Contentfull, Butter & Craft in the future"
+            text= "I have a <b> good </b> understanding of Strapi. I have used it in my projects. I believe it is a very good CMS but still very young and limiting in some areas. <br><br> Their roadmap looks very promising so I hope to use Strapi more in the future when they added more functionality. "
             v-bind:tags="['Headless CMS', 'Open-source', 'API', 'The future']"
             imageName="strapi"
         />
