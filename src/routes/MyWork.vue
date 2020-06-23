@@ -14,7 +14,7 @@
           <SingleWork
           title="Le jardin de Nicolas"
           text="Le jardin de Nicolas is a high class restaurant situated in Montgomery. My colleague and I used a theme to create this website and personalized it to the owners liking. <br> <br> We mainly used high quality images as a mean attract new customers.</i>  "
-          siteLink="https://www.google.com"
+          siteLink="https://www.lejardindenicolas.be/"
           imageName="jardin"
           v-bind:tags="['Wordpress', 'SEO', 'Migration' , 'Theme']"
           />
@@ -22,7 +22,7 @@
           <SingleWork
           title="Navatech"
           text="Navatech is a pool temperature solution company located in Singapore. A specialized store with a only a handfull of high-end products.<br><br> For this reason I used Strapi for the back-end as it is easy to navigate and highly costumizable.  "
-          siteLink="https://www.google.com"
+          siteLink="https://navatech.sg/"
           imageName="navatech"
           v-bind:tags="['Strapi', 'React', 'Tailwindcss' , 'Graphql', 'Heroku']"
           />
@@ -33,7 +33,7 @@
           <SingleWork
           title="Coach Gab"
           text="Coach Gab is a personal fitness coach here in Brussels. <br><br> In combination with SimplyBook.me coach Gab's web presence, booking & management has completely transformed to become future proof. <i> Still in the development stage</i>  "
-          siteLink="https://www.google.com"
+          siteLink="#"
           imageName="gab"
           v-bind:tags="['vuejs', 'Jquery', 'SwiperJS' , 'SimplyBook']"
           />

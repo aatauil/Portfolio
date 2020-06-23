@@ -1,7 +1,7 @@
 <template>
   <article class="work-item">
     <div class="work-item_header">
-      <a class="work-item_title" v-bind:href="siteLink">{{title}}</a>  
+      <a class="work-item_title" v-bind:href="siteLink">#{{title}}</a>  
       <p class="work-item_text" v-html="text"></p>
       <div class="work-item_taglist" v-bind:class="{ hide : !hideItem }">
           <div class="tag_container">
