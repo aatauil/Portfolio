@@ -2,14 +2,14 @@
   <section class="focused-skill_container">
      <SingleSkill
             title= "GraphQL"
-            text= "I have a <b> basic to good </b> understanding of GraphQL. I am in the process of further learning it in depth. This in combination of <b> Apollo & Hasura </b>. I very much like how GraphQL query's its data. Like MongoDB I feel very postive in learning this technologies towards the future"
-            v-bind:tags="['Apollo', 'Hasura', 'Query', 'Mutations']"
+            text= "I have a <b> good </b> understanding of GraphQL. I have used it in one of my projects using Apollo-react. I am really impressed by it and plan to use it for all my future projects. <br><br> For the moment my knwoledge is only limited to Querying but I already started learning how to create my own Graphql API. "
+            v-bind:tags="['Apollo', 'Variables', 'Query', 'Mutations']"
             imageName="graphql"
         />
 
          <SingleSkill
             title= "Ubuntu"
-            text= "I use Ubuntu as my prefered <b> Linux distribution </b>. I have a <b> sufficiant </b> knowledge on ubuntu for a web developer. This includes knowing how to use the CLI. Understanding file permissions. Setting up a server. Update & Upgrade packages and more."
+            text= "I use Ubuntu as my prefered <b> Linux distribution </b>. I have a <b> sufficiant </b> knowledge on ubuntu as a web developer. I  feel very comfortable using the CLI. Understanding I have a good understanding of user & file permissions.<br><br> I can easily set up a web server, firewall, pm2... Basically everything to deploy a website or web app using the CLI only.  "
             v-bind:tags="['Linux', 'Sudo', 'Server', 'SSH']"
             imageName="ubuntu"
         />
@@ -23,11 +23,12 @@
         />
 
         <SingleSkill
-            title= "MEVN stack"
-            text= "The MEVN stack is my prefered stack. Not yet perfectionized but I do work towards this becoming my <b> default stack </b>.  "
-            v-bind:tags="['MongoDB', 'ExpressJS', 'VueJS', 'NodeJS']"
-            imageName="mevn"
+            title= "Docker"
+            text= "I have a <b> Good </b> understanding of the theoretical part of docker. I am currently using Docker in practice for a personal project. <br><br> In the future I hope to also learn Kubernetes and eventually use these together to create microservice architecture based applications. "
+            v-bind:tags="['Container', 'Images', 'Kubernetes', 'Microservice']"
+            imageName="docker"
         />
+        
 
 
         
